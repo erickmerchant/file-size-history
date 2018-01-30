@@ -1,0 +1,30 @@
+{
+  "name": "file-size-history",
+  "version": "1.0.0",
+  "description": "Helps track changes in file size over time",
+  "main": "main.js",
+  "bin": {
+    "file-size-history": "./cli.js"
+  },
+  "scripts": {
+    "test": "standard && tape 'test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickmerchant/file-size-history.git"
+  },
+  "keywords": [],
+  "author": "Erick Merchant <erickmerchant@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erickmerchant/file-size-history/issues"
+  },
+  "homepage": "https://github.com/erickmerchant/file-size-history#readme",
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "sergeant": "^17.2.2"
+  }
+}
